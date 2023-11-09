@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simply Chocolate</title>
+    <link rel="stylesheet" href="./css/modern-normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- ============ HEADER ============ -->
+    <header class="container box-header">
+        <nav class="menu">
+            <a class="link logo" href="./index.html"><span class="italic">Simply</span> Chocolate
+                <svg width="21" height="21">
+                    <use href="./images/icons.svg#bitten-chocolate"></use>
+                </svg>
+            </a>
+            <ul class="list list-menu">
+                <li class="item-menu"><a class="link lnk-item-menu">Home</a></li>
+                <li class="item-menu"><a class="link lnk-item-menu">How it’s made?</a></li>
+                <li class="item-menu"><a class="link lnk-item-menu">Our products</a></li>
+                <li class="item-menu"><a class="link lnk-item-menu">Top sellers</a></li>
+                <li class="item-menu"><a class="link lnk-item-menu">Chocolate is loved</a></li>
+            </ul>
+        </nav>
+        <button class="menu-toggle js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
+            <svg width="21" height="21">
+                <use href="./images/icons.svg#menu-toggle"></use>
+            </svg>
+        </button>
+        <address>
+            <ul class="list sm">
+                <li>
+                    <a href="">
+                        <svg width="21" height="21">
+                            <use href="./images/icons.svg#instagram"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <svg width="21" height="21">
+                            <use href="./images/icons.svg#twitter"></use>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+        </address>
+    </header>
+    <main class="container box-main">
+        <!-- ============ START ============ -->
+        <section class="start">
+            <!-- <picture>
+                <source
+                    media="screen and ((min-device-pixel-ratio: 2) or (min-resolution: 192dpi) or (min-resolution: 2dppx))"
+                    srcset="./images/bkg-start-335x621@2x.jpg" size="335px">
+                <source
+                    media="screen and (min-width: 768px)"
+                    srcset="./images/bkg-start-704x890.jpg" size="538px">
+                <source
+                    media="screen and (min-width: 768px) and ((min-device-pixel-ratio: 2) or (min-resolution: 192dpi) or (min-resolution: 2dppx))"
+                    srcset="./images/bkg-start-704x890@2x.jpg" size="538px">
+                <source
+                    media="screen and (min-width: 1200px)"
+                    srcset="./images/bkg-start-704x890.jpg" size="1136px">
+                <source
+                    media="screen and (min-width: 1200px) and ((min-device-pixel-ratio: 2) or (min-resolution: 192dpi) or (min-resolution: 2dppx))"
+                    srcset="./images/bkg-start-1136x600@2x.jpg" size="1136px">
+                <img src="./images/bkg-start-335x621.jpg" alt="chocolate with berries on top covered cocoa powder">
+            </picture> -->
+            <div class="on-image">
+                <h2 class="motto">Treat yourself or a loved one to 
+                <br>our finest ingredients for a moment
+                <br>of pure delight!</h2>
+                <button class="btn btn-xl btn-accent">Buy now</button>
+                <button class="btn btn-xl btn-outln">How it’s made</button>
+                <p>scroll down</p>
+                <svg width="16" height="16">
+                    <use href="./images/icons.svg#scroll-down"></use>
+                </svg>
+            </div>
+        </section>
+        <!-- ============ BENEFITS ============ -->
+        <section class="benefits">
+            <h2 class="visually-hidden">Benefits</h2>
+            <ul class="list">
+                <li>
+                    <svg width="32" height="32">
+                        <use href="./images/icons.svg#bitten-chocolate"></use>
+                    </svg>
+                    <h3>Unsurpassed taste</h3>
+                    <p>Crafted with the finest quality cocoa beans and a dedication to perfection, each bite is a decadent experience that
+                    simply cannot be matched. Savor the richness and complexity of our Unsurpassed Taste and discover a new level of
+                    chocolate bliss.</p>
+                </li>
+                <li>
+                    <svg width="32" height="32">
+                        <use href="./images/icons.svg#coin"></use>
+                    </svg>
+                    <h3>Affordable price</h3>
+                    <p>Indulge in high-quality chocolate without breaking the bank with Simply Chocolate's selection of affordable treats.
+                    Enjoy mouth-watering truffles and velvety chocolate bars without sacrificing taste or quality. Browse our selection and
+                    indulge in affordable luxury today.</p>
+                </li>
+                <li>
+                    <svg width="32" height="32">
+                        <use href="./images/icons.svg#spoon"></use>
+                    </svg>
+                    <h3>Own production</h3>
+                    <p>We take pride in our own production process, ensuring that every step is carefully crafted to perfection. From selecting
+                    the finest ingredients to handcrafting each piece, our attention to detail is evident in every bite.</p>
+                </li>
+            </ul>
+        </section>
+        <!-- ============ TASTE ============ -->
+        <section class="taste">
+            <h2 class="section-title">It all adds up to one exeptional <span class="accent">taste</span> sensation</h2>
+            <p>At Simply Chocolate, we believe that the secret to exceptional chocolate is in the details. From the sourcing of the finest ingredients to the careful crafting of each individual piece, every step of our process adds up to one exceptional taste sensation.</p>
+            <ul class="list">
+                <li>
+                    <picture>
+                        <img src="./images/taste/375/milk-chocolate-bars-224x171.png">
+                    </picture>
+                    <h3>Milk chocolate</h3>
+                    <div class="taste-overlay">
+                        <h3>Milk chocolate</h3>
+                        <button class="btn btn-xs btn-accent">chocolate</button>
+                        <button class="btn btn-xs btn-outln-accent">the benefits</button>
+                        <p class="taste-txt">Milk chocolate is a solid chocolate confectionery containing cocoa, sugar and milk. It is the most consumed type of chocolate. Chocolate was originally sold and consumed as a beverage in pre-Columbian times. Although four-fifths of all milk chocolate is sold in the United States and Europe.</p>
+                    </div>
+                </li>
+                <li>
+                    <picture>
+                        <img src="./images/taste/375/bootle-of-milk-224x171.png">
+                    </picture>
+                    <h3>Milk</h3>
+                    <div class="taste-overlay">
+                        <h3>Milk</h3>
+                        <button class="btn btn-xs btn-accent">milk</button>
+                        <button class="btn btn-xs btn-outln-accent">the benefits</button>
+                        <p class="taste-txt">Milk is a white liquid food produced by the mammary glands of mammals. It is the primary source of nutrition for young mammals (including breastfed human infants) before they are able to digest solid food.Early-lactation milk, which is called colostrum, contains antibodies that strengthen the immune system.</p>
+                    </div>
+                </li>
+                <li>
+                    <picture>
+                        <img src="./images/taste/375/hazelnuts-224x171.png">
+                    </picture>
+                    <h3>Nuts</h3>
+                    <div class="taste-overlay">
+                        <h3>Nuts</h3>
+                        <button class="btn btn-xs btn-accent">nuts</button>
+                        <button class="btn btn-xs btn-outln-accent">the benefits</button>
+                        <p class="taste-txt">Almonds, pistachios, and walnuts are some types of nuts that contain healthy nutrients. When eaten as part of a nutrient-dense diet, these 9 nuts may offer benefits such as reducing your risk of heart disease. They’re a good source of fiber, healthy fats, and plant protein. Plus, they’re great on their own.</p>
+                    </div>
+                </li>
+                <li>
+                    <picture>
+                        <img src="./images/taste/375/chocolate-drops-224x171.png">
+                    </picture>
+                    <h3>Semi - sweet chocolate</h3>
+                    <div class="taste-overlay">
+                        <h3>Semi - sweet chocolate</h3>
+                        <button class="btn btn-xs btn-accent">sweet chocolate</button>
+                        <button class="btn btn-xs btn-outln-accent">the benefits</button>
+                        <p class="taste-txt">Semi-sweet chocolate has a cocoa solid content of 35 to 65%. One of the best ways to gain an understanding of this type of chocolate is to compare it to a different type of chocolate. Semisweet is darker than milk chocolate. In a taste comparison, it has a slightly bitter taste whereas milk chocolate is sweeter and more mellow.</p>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <!-- ============ MADE ============ -->
+        <section class="made">
+            <h2 class="section-title">How it's <span class="accent">made</span></h2>
+            <!-- <video width="335" height="500" autoplay></video> -->
+            <img src="./images/how-its-made-335x500.jpg">
+            <h3>Try our chocolates today and discover the perfect balance of flavor</h3>
+            <ul>
+                <li>Heat the milk in a saucepan without bringing it to a boil. Add sugar and cocoa powder.</li>
+                <li>At the same time, prepare a water bath. Melt the butter on it.</li>
+                <li>"Mix" the milk mixture and already liquid butter. Mix thoroughly with a silicone spatula so that the mass becomes
+                uniform and silky.</li>
+                <li>Heat the mixture over low heat, letting it barely boil.</li>
+                <li>Pour the chocolate into special containers (can be replaced with ice molds). Allow to cool and harden.</li>
+            </ul>
+        </section>
+        <!-- ============ PRODUCTS ============ -->
+        <section class="products">
+            <h2 class="section-title">Our <span class="accent">products</span></h2>
+            <div>
+                <ul class="list">
+                    <li>
+                        <img src="./images/our-products/orange-dark-chocolate-230x201.jpg" alt="">
+                        <h3>Orange</h3>
+                        <p>Dark chocolate</p>
+                        <button class="btn btn-md btn-other">45 UAH</button>
+                    </li>
+                    <li>
+                        <img src="./images/our-products/apple-cranberry-milk-chocolate-230x201.jpg" alt="">
+                        <h3>Apple&cranberry</h3>
+                        <p>Milk chocolate</p>
+                        <button class="btn btn-md btn-other">50 UAH</button>
+                    </li>
+                    <li>
+                        <img src="./images/our-products/lime-sea-salt-dark-chocolate-230x201.jpg" alt="">
+                        <h3>Lime&sea salt</h3>
+                        <p>Dark chocolate</p>
+                        <button class="btn btn-md btn-other">66 UAH</button>
+                    </li>
+                    <li>
+                        <img src="./images/our-products/pineapple-dark-chocolate-230x201.jpg" alt="">
+                        <h3>Pineapple</h3>
+                        <p>Dark chocolate</p>
+                        <button class="btn btn-md btn-other">54 UAH</button>
+                    </li>
+                    <li>
+                        <img src="./images/our-products/classic-milk-chocolate-230x201.jpg" alt="">
+                        <h3>Classic</h3>
+                        <p>Milk chocolate</p>
+                        <button class="btn btn-md btn-other">45 UAH</button>
+                    </li>
+                    <li>
+                        <img src="./images/our-products/honey-milk-chocolate-230x201.jpg" alt="">
+                        <h3>Honey</h3>
+                        <p>Milk chocolate</p>
+                        <button class="btn btn-md btn-other">50 UAH</button>
+                    </li>
+                    <li>
+                        <img src="./images/our-products/roasted-fruits-dark-chocolate-230x201.jpg" alt="">
+                        <h3>Roasted-fruits</h3>
+                        <p>Dark chocolate</p>
+                        <button class="btn btn-md btn-other">66 UAH</button>
+                    </li>
+                    <li>
+                        <img src="./images/our-products/classic-white-chocolate-230x201.jpg" alt="">
+                        <h3>Classic</h3>
+                        <p>White chocolate</p>
+                        <button class="btn btn-md btn-other">54 UAH</button>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!-- ============ TOP SELLERS ============ -->
+        <section class="top-sellers">
+            <h2 class="section-title"><span class="accent">Top</span> sellers</h2>
+            <ul class="list">
+                <li>
+                    <img src="./images/top-sellers/1200/coffee-dark-chocolate-368x464.jpg" alt="">
+                </li>
+                <li>
+                    <img src="./images/top-sellers/1200/fruits-hazelnuts-milk-chocolate-368x464.jpg" alt="">
+                </li>
+                <li>
+                    <img src="./images/top-sellers/1200/chocolate-bars-368x464.jpg" alt="">
+                </li>
+            </ul>
+            <p>Crazy enough chocolate originates from a bean just like the coffee bean called Cacao. Cacao has been around for
+            thousands of years and was first discovered by the Native American tribe called the Mayans.</p>
+            <button class="btn btn-xl btn-accent">Buy now</button>
+        </section>
+        <!-- ============ REVIEWS ============ -->
+        <section class="reviews">
+            <h2 class="section-title"><span class="accent">Chocolate</span> is loved</h2>
+            <ul class="list">
+                <li>
+                    <img src="./images/reviews/victoria-dobrzhanska.png" alt="">
+                    <h3>Victoria Dobrzhanska</h3>
+                    <p>I love this chocolate bar. Perfect combination of light crispy wafer, covered in a thin layer chocolate.</p>
+                </li>
+                <li>
+                    <img src="./images/reviews/nazar-babenko.png" alt="">
+                    <h3>Nazar Babenko</h3>
+                    <p>This chocolate confection is a delight! A delight! The wafer is light and crisp, the hazelnut cream is smooth, and the
+                    chocolate is good.</p>
+                </li>
+                <li>
+                    <img src="./images/reviews/olena-kampusch.png" alt="">
+                    <h3>Olena Kampusch</h3>
+                    <p>Chocolate is a family favourite treat. Love the delicious smooth chocolate and the creaminess inside. The wafer is soft
+                    but crunchy.</p>
+                </li>
+                <li>
+                    <img src="./images/reviews/natalia-sus.png" alt="">
+                    <h3>Natalia Sus</h3>
+                    <p>The chocolate assortment was delicious. Both dark and milk chocolate pieces were smooth and just right on the sweetness
+                    level.</p>
+                </li>
+                <li>
+                    <img src="./images/reviews/danilo-nottingham.png" alt="">
+                    <h3>Danilo Nottingham</h3>
+                    <p>This is delicious. It so rich and flavorful you don’t need to use as many. I love topping an apple with almond butter
+                    and these chips for a snack.</p>
+                </li>
+                <li>
+                    <img src="./images/reviews/irina-tydnyuk.png" alt="">
+                    <h3>Irina Tydnyuk</h3>
+                    <p>This is simply the best chocolate around, and I'm just thrilled to support a local company! Best local chocolate - world
+                    class :)</p>
+                </li>
+            </ul>
+            <div></div>
+            <button class="btn btn-xl btn-outln-accent">Leave a review</button>
+        </section>
+        <!-- ============ SUBSCRIBE ============ -->
+        <section class="subscribe">
+            <h2 class="section-title">Explore our new chocolate first</h2>
+            <p>From the velvety texture to the rich and complex flavor, our New Chocolate is a true indulgence that will leave you
+            craving more. Made with only the finest ingredients and handcrafted with the utmost care, each piece is a work of art
+            that is sure to please.</p>
+            <button class="btn btn-xl btn-accent">Subscribe</button>
+        </section>
+    </main>
+    <!-- ============ FOOTER ============ -->
+    <footer class="container">
+        <h2>Chocolate a delicious cure for a bad day</h2>
+        <div>
+            <p>Contact us</p>
+            <address>
+                <ul>
+                    <li><a href="tel:+380684439426">+380 (68) 443-94-26</a></li>
+                    <li><a href="mailto:simplychoc@gmail.com"></a>simplychoc@gmail.com</a></li>
+                </ul>
+            </address>
+        </div>
+        <div>
+            <ul>
+                <li>
+                    <a href="">
+                        <svg width="22" height="22">
+                            <use href="./images/icons.svg#instagram"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li>
+                    <a href=""></a>
+                        <svg width="22" height="22">
+                            <use href="./images/icons.svg#twitter"></use>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
