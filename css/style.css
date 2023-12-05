@@ -1524,6 +1524,9 @@ img {
     width: 100%;
 }
 .mod-sub-list-item2 {
+    display: none;
+}
+.mod-sub-list-item2m {
     position: absolute;
     top: 0;
     right: 0;
@@ -1533,6 +1536,7 @@ img {
     height: 45px;
 }
 .mod-sub-input {
+    width: 100%;
     flex-grow: 1;
     padding: 14px 18px;
     letter-spacing: -0.28px;
@@ -1593,8 +1597,12 @@ img {
         flex-grow: 1;
     }
     .mod-sub-list-item2 {
+        display: block;
         position: relative;
         flex-grow: 0;
+    }
+    .mod-sub-list-item2m {
+        display: none;
     }
     .mod-sub-input,
     .mod-sub-btn {
